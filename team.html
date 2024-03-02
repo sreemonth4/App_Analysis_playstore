@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Members</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.1); /* Light blue shadow */
+      transition: box-shadow 0.3s ease; /* Smooth transition */
+    }
+
+    /* Hover effect for container */
+    .container:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.3); /* Light blue shadow on hover */
+    }
+
+    h1{
+      text-align: center;
+      color: #112d81;
+    }
+    h2 {
+      text-align: center;
+      color: #000000;
+    }
+    h1{
+      color:#5a38ca;
+    }
+    h2:hover{
+      text-align: center;
+      color:#626262;
+    }
+
+    .team-name {
+      margin-bottom: 20px;
+    }
+
+    .member {
+      margin-bottom: 30px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #f8f8f8;
+      transition: transform 0.3s ease-in-out;
+      position: relative; /* Set position to relative */
+    }
+
+    .member img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 50%; /* Make the image round */
+      position: absolute;
+      bottom: -20px; /* Adjust the position of the locomotive */
+      left: 50%; /* Center the locomotive horizontally */
+      transform: translateX(-50%); /* Center the locomotive horizontally */
+    }
+
+    .member-details {
+      padding: 20px;
+      background-color: rgb(65, 63, 63); /* Background color set to black */
+      text-align: center;
+      color: white; /* Text color set to white */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    .member:hover .member-details {
+      background-color: #112d81; /* Light blue background color on hover */
+    }
+
+    .member-details h3 {
+      margin-bottom: 10px;
+      color: white; /* Text color set to white */
+    }
+
+    .member-details p {
+      margin-bottom: 5px;
+      color: white; /* Text color set to white */
+    }
+
+    /* Hover Effect */
+    .member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Media Query for Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Team Members</h1>
+    <div class="team-name">
+      <h2>Project: App Analysis</h2>
+      <p>Main Theme: Analyzing Google Android apps with data analytics</p>
+    </div>
+
+    <div class="member" style="background-color: #f8f8f8;">
+      <img src="locomotive.jpg" alt="Locomotive" /> <!-- Add locomotive image -->
+      <div class="member-details">
+        <h3>B.Hemanth Sai Kumar</h3>
+        <p>Role: Team Lead</p>
+        <p>Email: bhemanthsaikumar04@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="member" style="background-color: #f8f8f8;">
+      <img src="locomotive.jpg" alt="Locomotive" /> <!-- Add locomotive image -->
+      <div class="member-details">
+        <h3>Yamini.ch</h3>
+        <p>Role: Team Member</p>
+        <p>Email: yamini.ch2804@gmail.com</p>
+      </div>
+    </div>
+
+
+    <div class="member" style="background-color: #f8f8f8;">
+      <img src="locomotive.jpg" alt="Locomotive" /> <!-- Add locomotive image -->
+      <div class="member-details">
+        <h3>I.Srimanth Raj</h3>
+        <p>Role: Team Member</p>
+        <p>Email: sreemonth4@gmail.com</p>
+      </div>
+    </div>
+
+
+    <!-- Add more members as needed -->
+  </div>
+
+</body>
+
+</html>
